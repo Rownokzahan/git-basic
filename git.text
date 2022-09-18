@@ -14,6 +14,17 @@ $ git diff
 
 ## how to push changes in the git repository
    $ git add . 
+   $ git commit -m"add a message"
+   $ git push
+
+ XX ## how to push changes in the git repository XX
+   $ git add . 
    $ git commit -m"adding git.text"
-   $ git push --set-upstream origin master
+   $ git push --set-upstream origin master 
+
+## how to pull git repository changes to local folder
+   $ git pull 
+
+
+
 
