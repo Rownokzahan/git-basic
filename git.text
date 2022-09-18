@@ -1,0 +1,17 @@
+## how to connect git with a folder
+1st of all create a repository in git then run the bellow commands in command line or gitbash
+    $ echo "# my-first-website" >> README.md
+    $ git init
+    $ git add .
+    $ git commit -m "first ever commit"
+    $ git remote add origin https://github.com/Rownokzahan/my-first-website.git
+    $ git push origin HEAD:master
+
+## how to see the changes you have made in folder
+$ git diff
+
+## if you can not exit after running previous command type q
+
+## how to push changes in the git repository
+   $ git add . 
+
