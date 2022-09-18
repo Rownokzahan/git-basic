@@ -17,7 +17,7 @@ $ git diff
    $ git commit -m"add a message"
    $ git push
 
- XX ## how to push changes in the git repository XX
+ XX ## how to push changes in the git repository for the first time XX
    $ git add . 
    $ git commit -m"adding git.text"
    $ git push --set-upstream origin master 
@@ -40,7 +40,7 @@ $ git diff
 ## to create a new branch   
    $ git checkout -b new 'branch-name'
 
-## to push in the new brach 
+## to push in the new brach for first time
    $ git push --set-upstream origin branch-name
 
    
