@@ -70,9 +70,18 @@ $ git diff
    5. Scroll down and Select Marge pull request
    6. Select Confirm Marge
 
-## Don't showing the hosting link  
+## XX Don't showing the hosting link  XX
    1.On your repository, there is settings link. Open it. Settings menu on top right
    2.Scroll down a bit, there is GitHub Pages settings. Scroll down a bit   
    3. Try to select different source from "Select source" dropdown/combobox and save. Then change it again into gh-pages branch and don't forget  to save.
 This fix my head-banging-404-waiting-nothing-happening-after-hours-refreshing
+
    
+## Some Git Hub tips
+
+   The project we upload in GitHub stays in master branch
+   We create a new brach and make devlopment or changes in the brach it can be named devlop
+   We create a brach named gh-pages that is for hosting
+   After devloping the website we marge it (by pull request) in master brach
+   then from the the master branch we marge it (by pull request) in gh-pages branch
+   So, the final result can be seen in the hosting site/link
