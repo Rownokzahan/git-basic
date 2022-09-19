@@ -41,10 +41,10 @@ $ git diff
    $ git branch
 
 ## to switch into different branch
-   $ git checkout brach-name   
+   $ git checkout branch-name
 
 ## to create a new branch   
-   $ git checkout -b new branch-name
+   $ git checkout -b new 'branch-name'
 
 ## to push in the new brach
    $ git push --set-upstream origin branch-name
