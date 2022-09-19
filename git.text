@@ -31,6 +31,9 @@ $ git diff
 ## to see user email
    $ git config user.email
 
+
+///Git braches are used to create different varsion as my known//
+
 ## to see all the branches
    $ git branch -a
 
@@ -46,6 +49,11 @@ $ git diff
 ## to push in the new brach for first time
    $ git push --set-upstream origin branch-name
 
-   
+## to move into different brach
+   $ git checkout brach-name
+
+
 ## How to host a project in github
    by creating a branch named gh-pages
+
+
