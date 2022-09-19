@@ -43,15 +43,14 @@ $ git diff
 ## to switch into different branch
    $ git checkout branch-name
 
-## to create a new branch   
-   $ git checkout -b branch-name
-
-## to push in the new brach
+## to push in the new branch
    $ git push --set-upstream origin branch-name
 
 ## to push in the new brach for first time
    $ git push --set-upstream origin branch-name
 
+## to move into different branch
+   $ git checkout brach-name
 
 
 ## How to host a project in github
@@ -59,6 +58,14 @@ $ git diff
    2. got to settings
    3. under Code and automation go to Pages 
    4. there you can find the link 
+
+## how to marge from a different branch
+   1. Pull request -> New pull request->
+   2. Select destination_branch <- source_branch
+   3. Create pull request
+   4. Write a title then Select Create pull request
+   5. Scroll down and Select Marge pull request
+   6. Select Confirm Marge
 
 ## Don't showing the hosting link  
    1.On your repository, there is settings link. Open it. Settings menu on top right
