@@ -47,3 +47,5 @@ $ git diff
    $ git push --set-upstream origin branch-name
 
    
+## How to host a project in github
+   by creating a branch named gh-pages
