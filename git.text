@@ -42,6 +42,11 @@ $ git diff
 
 ## to create a new branch and checkout it  
    $ git checkout -b new 'branch-name'
+## to switch into different branch
+   $ git checkout branch-name
+
+## to create a new branch   
+   $ git checkout -b branch-name
 
 ## to create a new branch and without checkout it  
    $ git checkout -b new 'branch-name'
@@ -57,8 +62,10 @@ $ git diff
 
 
 ## How to host a project in github
-   by creating a branch named gh-pages
-
+   1. by creating a branch named gh-pages
+   2. got to settings
+   3. under Code and automation go to Pages 
+   4. there you can find the link 
 
 ## how to marge from a different branch
    1. Pull request -> New pull request->
@@ -67,3 +74,9 @@ $ git diff
    4. Write a title then Select Create pull request
    5. Scroll down and Select Marge pull request
    6. Select Confirm Marge
+## Don't showing the hosting link  
+   1.On your repository, there is settings link. Open it. Settings menu on top right
+   2.Scroll down a bit, there is GitHub Pages settings. Scroll down a bit   
+   3. Try to select different source from "Select source" dropdown/combobox and save. Then change it again into gh-pages branch and don't forget  to save.
+This fix my head-banging-404-waiting-nothing-happening-after-hours-refreshing
+   
