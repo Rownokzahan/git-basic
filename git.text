@@ -46,6 +46,7 @@ $ git diff
 ## to create a new branch   
    $ git checkout -b branch-name
 
+
 ## to push in the new brach
    $ git push --set-upstream origin branch-name
 
