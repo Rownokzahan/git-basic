@@ -40,13 +40,10 @@ $ git diff
 ## to create a new branch   
    $ git checkout -b new 'branch-name'
 
-<<<<<<< HEAD
 ## to push in the new brach
    $ git push --set-upstream origin branch-name
 
-=======
 ## to push in the new brach for first time
    $ git push --set-upstream origin branch-name
 
    
->>>>>>> 5c3153c3e93a0168f9a554d173764c751d0f27bf
