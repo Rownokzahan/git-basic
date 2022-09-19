@@ -76,7 +76,7 @@ $ git diff
    3. Try to select different source from "Select source" dropdown/combobox and save. Then change it again into gh-pages branch and don't forget  to save.
 This fix my head-banging-404-waiting-nothing-happening-after-hours-refreshing
 
-   
+
 ## Some Git Hub tips
 
    The project we upload in GitHub stays in master branch
@@ -85,3 +85,6 @@ This fix my head-banging-404-waiting-nothing-happening-after-hours-refreshing
    After devloping the website we marge it (by pull request) in master brach
    then from the the master branch we marge it (by pull request) in gh-pages branch
    So, the final result can be seen in the hosting site/link
+
+## To know further more search in google
+   git cheat sheet
