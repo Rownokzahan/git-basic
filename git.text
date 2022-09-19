@@ -40,7 +40,10 @@ $ git diff
 ## to see what brach are you in  
    $ git branch
 
-## to create a new branch   
+## to create a new branch and checkout it  
+   $ git checkout -b new 'branch-name'
+
+## to create a new branch and without checkout it  
    $ git checkout -b new 'branch-name'
 
 ## to push in the new brach
