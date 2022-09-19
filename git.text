@@ -40,16 +40,8 @@ $ git diff
 ## to see what brach are you in  
    $ git branch
 
-## to create a new branch and checkout it  
-   $ git checkout -b new 'branch-name'
 ## to switch into different branch
    $ git checkout branch-name
-
-## to create a new branch   
-   $ git checkout -b branch-name
-
-## to create a new branch and without checkout it  
-   $ git checkout -b new 'branch-name'
 
 ## to push in the new branch
    $ git push --set-upstream origin branch-name
@@ -74,6 +66,7 @@ $ git diff
    4. Write a title then Select Create pull request
    5. Scroll down and Select Marge pull request
    6. Select Confirm Marge
+
 ## Don't showing the hosting link  
    1.On your repository, there is settings link. Open it. Settings menu on top right
    2.Scroll down a bit, there is GitHub Pages settings. Scroll down a bit   
