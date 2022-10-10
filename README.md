@@ -1,1 +1,90 @@
-# my-first-website
+## how to connect git with a folder
+1st of all create a repository in git then run the bellow commands in command line or gitbash
+    $ echo "# my-first-website" >> README.md
+    $ git init
+    $ git add .
+    $ git commit -m "first ever commit"
+    $ git remote add origin https://github.com/Rownokzahan/my-first-website.git
+    $ git push origin HEAD:master
+
+## how to see the changes you have made in folder
+$ git diff
+
+## if you can not exit after running previous command type q
+
+## how to push changes in the git repository
+   $ git add . 
+   $ git commit -m"add a message"
+   $ git push
+
+ XX ## how to push changes in the git repository for the first time XX
+   $ git add . 
+   $ git commit -m"adding git.text"
+   $ git push --set-upstream origin master 
+
+## how to pull git repository changes to local folder
+   $ git pull 
+
+## to see user name
+   $ git config user.name
+
+## to see user email
+   $ git config user.email
+
+
+///Git braches are used to create different varsion as my known//
+
+## to see all the branches
+   $ git branch -a
+
+## to see what brach are you in  
+   $ git branch
+
+## to switch into different branch
+   $ git checkout branch-name
+
+## to create a new branch   
+   $ git checkout -b branch-name
+
+## to push in the new brach
+   $ git push --set-upstream origin branch-name
+
+## to push in the new brach for first time
+   $ git push --set-upstream origin branch-name
+
+## to move into different branch
+   $ git checkout brach-name
+
+
+## How to host a project in github
+   1. by creating a branch named gh-pages
+   2. got to settings
+   3. under Code and automation go to Pages 
+   4. there you can find the link 
+
+## how to marge from a different branch
+   1. Pull request -> New pull request->
+   2. Select destination_branch <- source_branch
+   3. Create pull request
+   4. Write a title then Select Create pull request
+   5. Scroll down and Select Marge pull request
+   6. Select Confirm Marge
+
+## XX Don't showing the hosting link  XX
+   1.On your repository, there is settings link. Open it. Settings menu on top right
+   2.Scroll down a bit, there is GitHub Pages settings. Scroll down a bit   
+   3. Try to select different source from "Select source" dropdown/combobox and save. Then change it again into gh-pages branch and don't forget  to save.
+This fix my head-banging-404-waiting-nothing-happening-after-hours-refreshing
+
+
+## Some Git Hub tips
+
+   The project we upload in GitHub stays in master branch
+   We create a new brach and make devlopment or changes in the brach it can be named devlop
+   We create a brach named gh-pages that is for hosting
+   After devloping the website we marge it (by pull request) in master brach
+   then from the the master branch we marge it (by pull request) in gh-pages branch
+   So, the final result can be seen in the hosting site/link
+
+## To know further more search in google
+   git cheat sheet
